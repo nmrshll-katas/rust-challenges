@@ -1,0 +1,12 @@
+[package]
+name = "_3_sync_endpoint"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version="^1.0", default-features=false, features=["rt-multi-thread", "test-util"] }
+axum = { version="^0.7", features=["tokio", "macros"] }
+tower = { version="^0.1" }
+reqwest = { version="^0.11", default-features=false, features=[] }
+axum-macros = "^0.4"
+thiserror = "^1.0"

@@ -3,6 +3,9 @@ debug/
 **/target/
 **/*.rs.bk
 tarpaulin-report.html
+**/bin/
+**/pkg/
+**/wasm-pack.log
 
 # JS
 **/node_modules/
@@ -25,5 +28,10 @@ tarpaulin-report.html
 **/.env
 **/.env.**
 **/**.env
+
+
+
+
+
 
 
